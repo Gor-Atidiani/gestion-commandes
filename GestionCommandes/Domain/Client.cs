@@ -1,24 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GestionCommandes.Domain
+﻿namespace GestionCommandes.Domain
 {
     public class Client
     {
-        private int _id;    
-        private string _nom;
-        private string _email;
-
+        public int Id { get; private set; }
+        public string Nom { get; private set; }
+        public string Email { get; private set; }
 
         public Client(int id, string nom, string email)
         {
-            _id = id;
-            _nom = nom;
-            _email = email;
-        }   
-
+            Id = id;
+            Nom = nom;
+            Email = email;
+        }
     }
 }
