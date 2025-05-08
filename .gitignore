@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.db-wal
+*.db-shm
+*.vsscc
+*.vspscc
+*.cache
+*.log
+*.csproj.user
+
+# Build
+bin/
+obj/
