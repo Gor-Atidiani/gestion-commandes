@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GestionCommandes.Domain
 {
-    internal class IExportable
+    public interface IExportable
     {
+        string Export();
     }
 }

@@ -14,5 +14,10 @@
             Montant = montant;
             ClientAssocie = clientAssocie;
         }
+
+        public string Export()
+        {
+            return $"Commande ID: {Id}, Date: {DateCommande.ToShortDateString()}, Montant: {Montant:C}, Client: {ClientAssocie.Nom}";
+        }   
     }
 }
