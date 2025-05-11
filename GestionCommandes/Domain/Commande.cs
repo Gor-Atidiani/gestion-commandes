@@ -17,7 +17,7 @@
 
         public string Export()
         {
-            return $"Commande ID: {Id}, Date: {DateCommande.ToShortDateString()}, Montant: {Montant:C}, Client: {ClientAssocie.Nom}";
+            return $"Commande ID: {Id}, Date: {DateCommande.ToShortDateString()}, Montant: {Montant:F2}€, Client: {ClientAssocie.Nom}";
         }   
     }
 }
